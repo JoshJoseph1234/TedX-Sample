@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import SpeakerCard from './components/SpeakerCard';
 import Countdown from './components/Countdown';
 import Sponsors from './components/Sponsors';
+import Team from './components/Team';
 
 
 
@@ -64,6 +65,7 @@ export default function Home() {
         </div>
       </section>
        <Sponsors />
+       <Team />
     </main>
   );
 }
