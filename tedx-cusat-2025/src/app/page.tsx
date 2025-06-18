@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion';
 import SpeakerCard from './components/SpeakerCard';
+import Countdown from './components/Countdown';
+
 
 
 export default function Home() {
@@ -44,6 +46,7 @@ export default function Home() {
           Igniting Minds. Inspiring Change.
         </motion.p>
       </section>
+<Countdown />
 
       <section className="text-center mb-10">
         <h2 className="text-3xl font-semibold mb-6 text-white">Meet the Speakers</h2>
