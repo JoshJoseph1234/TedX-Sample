@@ -5,6 +5,10 @@ import SpeakerCard from './components/SpeakerCard';
 import Countdown from './components/Countdown';
 import Sponsors from './components/Sponsors';
 import Team from './components/Team';
+import Testimonials from './components/Testimonials';
+import CallToAction from './components/CallToAction';
+import Footer from './components/Footer';
+import FloatingButton from './components/FloatingButton';
 
 
 
@@ -66,6 +70,14 @@ export default function Home() {
       </section>
        <Sponsors />
        <Team />
+       <Testimonials />
+       <div id="get-tickets">
+  <CallToAction />
+</div>
+
+<Footer />
+<FloatingButton />
+
     </main>
   );
 }
