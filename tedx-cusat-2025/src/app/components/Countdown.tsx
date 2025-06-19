@@ -33,7 +33,7 @@ export default function Countdown() {
 
   return (
     <section className="bg-black text-white py-10 text-center">
-      <h2 className="text-3xl font-bold mb-4 text-red-600">Countdown to TEDxCUSAT 2025</h2>
+      <h2 className="text-3xl font-bold mb-4 text-red-600">Red dot. Bright minds. Coming soon.</h2>
       <div className="flex justify-center gap-8 text-2xl font-mono">
         <div><span className="text-red-500">{timeLeft.days}</span> days</div>
         <div><span className="text-red-500">{timeLeft.hours}</span> hrs</div>
